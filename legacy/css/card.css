@@ -1,0 +1,117 @@
+.card {
+  margin: 36px auto;
+  padding: 0;
+  width: 100%;
+  background: #fff;
+  animation: card_fadeIn 0.6s ease-in; }
+
+@-webkit-keyframes card_fadeIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes card_fadeIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes card_fadeIn {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0; }
+  50% {
+    transform: translateX(-50px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
+.scrim {
+  background: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.title {
+  text-align: left;
+  color: #00897B;
+  padding: 16px 16px 4px 16px;
+  margin: 0; }
+
+.img .title {
+  margin-top: -1.5em;
+  text-align: left;
+  color: #fff;
+  padding: 0 0 0 16px; }
+
+.img .description {
+  padding: 8px 16px 16px 16px; }
+
+.img .actions {
+  padding: 14px 16px; }
+
+.description {
+  padding: 0 16px 16px;
+  margin: 0; }
+  .description p {
+    font-size: 14px;
+    color: #575757;
+    margin: 0; }
+
+.actions {
+  border-top: 1px solid #dadada;
+  text-align: right;
+  padding: 16px;
+  margin: 0; }
+  .actions a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #111;
+    padding: 0 4px;
+    text-decoration: none; }
+    .actions a:hover {
+      color: #F50057;
+      text-decoration: none; }
+    .actions a:last-of-type {
+      color: #F50057;
+      text-transform: uppercase;
+      font-weight: 700; }
+      .actions a:last-of-type:hover {
+        color: #111;
+        text-decoration: none; }
+
+.language {
+  float: left;
+  color: #727272;
+  text-transform: uppercase; }
+
+.disabled {
+  color: #b8b8b8 !important; }
+  .disabled:hover {
+    color: #b8b8b8 !important;
+    cursor: default; }
+
+.img > div:first-of-type {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 100%;
+  background-size: cover; }
+
+.img-alt > div:nth-of-type(2) {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 100%;
+  background-size: cover; }
+
+.video .title {
+  position: absolute;
+  z-index: 2; }
